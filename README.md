@@ -8,11 +8,11 @@ Subjects of those four projects are in the [***subjects***](./subjects) director
 Summary :
 - [Structure](#00-structure)
 - [Projects](#projects)
-	- [00 libft](#00-libft-:)
-	- [01 fillit](#01-fillit-:)
-	- [02 fdf](#02-fdf-:)
-	- [03 fractol](#03-fractol-:)
-	- [04 Wolf3D](#04-wolf3d-:)
+	- [00 libft](#00-libft)
+	- [01 fillit](#01-fillit)
+	- [02 fdf](#02-fdf)
+	- [03 fractol](#03-fractol)
+	- [04 Wolf3D](#04-wolf3d)
 
 ## 00 Structure
 All those projects have the same structure :
@@ -30,14 +30,14 @@ I added easter eggs  in the graphical projects, but they only work under MacOs, 
 ## Projects
 In order to compile the projects, simply run the _make_ command at the  root of each of them.
 
-### 00 libft :
+### 00 libft
 The *libft* project consists of reproducing some of the Standard C library. I added some function later.
 
-### 01 fillit :
+### 01 fillit
 The *fillit* project consists of filling the smallest square possible with tetriminos described in a file given in parameter of the program. Every tetrimonos are define by four sharps (*#*), and are included in a square of 4x4 characters. All the remaining characters must be dots (.).
 To run the program, use ***./fillit file***
 
-### 02 fdf :
+### 02 fdf
 The *fdf* projects consists of graphically recreating the schematic representation of a raised ground. The height map is given in parameter. Each number on the map represents the height of this precise point. You can find already made maps in the **maps** folder.
 To run the program, use ***./fdf map_to_draw [colorscheme]*** (ex : *./fdf maps/le-101.v1 "kouign amann"*)
 
@@ -62,7 +62,7 @@ Available colorschemes :
 ![France XXL map, with Notum Terram colorscheme](./screen/fdf/04.png?raw=true "France XXL map, with Notum Terram colorscheme")
 *France XXL map, with Notum Terram colorscheme*
 
-### 03 fractol :
+### 03 fractol
 The *fractol* project consists of representing fractals on screen. My programs allows to draw Mandelbrot, Burning ship, and Mandelbrot's version of Julia fractals.
 To run the program, use ***./fractol fractal*** (ex : *./fractol 1* or *./fractol Mandelbrot*)
 
@@ -93,5 +93,5 @@ Available fractals :
 *Zoom on the Burning Ship fractal, black to cyan colorscheme, 50 iterations*
 
 
-### 04 Wolf3D :
+### 04 Wolf3D
 Work in progress, my project is not available yet, put you can read the subject anyway.
