@@ -6,7 +6,7 @@ All of those projects where made on a MacOs computer, but also  work on Ubuntu d
 Subjects of those four projects are in the [***subjects***](./subjects) directory, both in french and english for your convenience.
 
 Summary :
-- [Structure](#00-structure)
+- [Structure](#structure)
 - [Projects](#projects)
 	- [00 libft](#00-libft)
 	- [01 fillit](#01-fillit)
@@ -14,7 +14,7 @@ Summary :
 	- [03 fractol](#03-fractol)
 	- [04 Wolf3D](#04-wolf3d)
 
-## 00 Structure
+## Structure
 All those projects have the same structure :
  - an autor file
  - a Makefile
