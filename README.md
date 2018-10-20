@@ -44,11 +44,11 @@ To run the program, use ***./fdf map_to_draw [colorscheme]*** (ex : *./fdf maps/
 Available colorschemes :
 - **notum terram** -> classic map colors
 - **le 101** -> le-101-school colorscheme (Default)
-- **fire**	-> fire-like color
+- **fire** -> fire-like color
 - **paon pan pan** -> peacock-blue
-- **rafletnaug** ->	pink-orange colorscheme
-- **kouign amann**	->	butter-like colorscheme
- - **mars**		->	Mars inspired colorscheme
+- **rafletnaug** -> pink-orange colorscheme
+- **kouign amann** -> butter-like colorscheme
+ - **mars** ->	Mars inspired colorscheme
 
 ![Le-101-v1 map, with default colorscheme (Le-101)](./screen/fdf/01.png?raw=true "Le-101-v1 map, with default colorscheme (Le-101)")
 *Le-101-v1 map, with default colorscheme (Le-101)*
