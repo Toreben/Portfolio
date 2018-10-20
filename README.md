@@ -1,10 +1,20 @@
+
 # Le 101 projects by bnoyer 
 _This repo is a part of my work at Le-101 School._
 
 All of those projects where made on a MacOs computer, but also  work on Ubuntu distributions.
 Subjects of those four projects are in the [***subjects***](./subjects) directory, both in french and english for your convenience.
 
-## Structure
+Summary :
+- [Structure](#00-structure)
+- [Projects](#projects)
+	- [00 libft](#00-libft-:)
+	- [01 fillit](#01-fillit-:)
+	- [02 fdf](#02-fdf-:)
+	- [03 fractol](#03-fractol-:)
+	- [04 Wolf3D](#04-wolf3d-:)
+
+## 00 Structure
 All those projects have the same structure :
  - an autor file
  - a Makefile
@@ -40,13 +50,17 @@ Available colorschemes :
 - **kouign amann**	->	butter-like colorscheme
  - **mars**		->	Mars inspired colorscheme
 
-![Le-101-v1 map, with default colorscheme (Le-101)](./screenshots/fdf/01.png?raw=true "Le-101-v1 map, with default colorscheme (Le-101)")
+![Le-101-v1 map, with default colorscheme (Le-101)](./screen/fdf/01.png?raw=true "Le-101-v1 map, with default colorscheme (Le-101)")
+*Le-101-v1 map, with default colorscheme (Le-101)*
 
-![Mars map, with mars colorscheme](./screenshots/fdf/02.png?raw=true "Mars map, with mars colorscheme")
+![Mars map, with mars colorscheme](./screen/fdf/02.png?raw=true "Mars map, with mars colorscheme")
+*Mars map, with mars colorscheme*
 
-![France S map, with Notum Terram colorscheme](./screenshots/fdf/03.png?raw=true "France S map, with Notum Terram colorscheme")
+![France S map, with Notum Terram colorscheme](./screen/fdf/03.png?raw=true "France S map, with Notum Terram colorscheme")
+*France S map, with Notum Terram colorscheme*
 
-![France XXL map, with Notum Terram colorscheme](./screenshots/fdf/04.png?raw=true "France XXL map, with Notum Terram colorscheme")
+![France XXL map, with Notum Terram colorscheme](./screen/fdf/04.png?raw=true "France XXL map, with Notum Terram colorscheme")
+*France XXL map, with Notum Terram colorscheme*
 
 ### 03 fractol :
 The *fractol* project consists of representing fractals on screen. My programs allows to draw Mandelbrot, Burning ship, and Mandelbrot's version of Julia fractals.
@@ -56,6 +70,28 @@ Available fractals :
 - **1 Mandelbrot**
 - **2 Burning Ship**
 - **3 Julia**
+
+![Mandelbrot fractal, black to white color scheme, 50 iterations](./screen/fractol/01.png?raw=true "Mandelbrot fractal, black to white color scheme, 50 iterations")
+*Mandelbrot fractal, black to white color scheme, 50 iterations*
+
+![Mandelbrot fractal, mainly green colorscheme, 440 iterations](./screen/fractol/02.png?raw=true "Mandelbrot fractal, mainly green colorscheme, 440 iterations")
+*Mandelbrot fractal, mainly green colorscheme, 440 iterations*
+
+![Zoom on Mandelbrot fractal, mainly red colorscheme, 120 iterations](./screen/fractol/03.png?raw=true "Zoom on Mandelbrot fractal, mainly red colorscheme, 120 iterations")
+*Zoom on Mandelbrot fractal, mainly red colorscheme, 120 iterations*
+
+![Julia fractal, black to purple colorscheme, 140 iterations](./screen/fractol/04.png?raw=true "Julia fractal, black to purple colorscheme, 140 iterations")
+*Julia fractal, black to purple colorscheme, 140 iterations*
+
+![Julia fractal, black to purple colorscheme, 140 iterations (different parameter from the previous screenshot)](./screen/fractol/05.png?raw=true "Julia fractal, black to purple colorscheme, 140 iterations (different parameter from the previous screenshot)")
+*Julia fractal, black to purple colorscheme, 140 iterations (different parameter from the previous screenshot)*
+
+![Julia fractal, mainly cyan colorscheme, 1230 iteration (same center as the previous Julia screenshot)](./screen/fractol/06.png?raw=true "Julia fractal, mainly cyan colorscheme, 1230 iteration (same center as the previous Julia screenshot)")
+*Julia fractal, mainly cyan colorscheme, 1230 iteration (same center as the previous Julia screenshot)*
+
+![Zoom on the Burning Ship fractal, black to cyan colorscheme, 50 iterations](./screen/fractol/07.png?raw=true "Zoom on the Burning Ship fractal, black to cyan colorscheme, 50 iterations")
+*Zoom on the Burning Ship fractal, black to cyan colorscheme, 50 iterations*
+
 
 ### 04 Wolf3D :
 Work in progress, my project is not available yet, put you can read the subject anyway.
