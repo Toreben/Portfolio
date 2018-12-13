@@ -1,5 +1,5 @@
 
-# Le 101 projects by bnoyer 
+# Le-101 projects by bnoyer 
 _This repo is a part of my work at Le-101 School._
 
 All of those projects where made on a MacOs computer, but also  work on Ubuntu distributions.
