@@ -1,0 +1,47 @@
+scene :
+{
+	view :
+	{
+		camera :
+		{
+			position = (0 0 6)
+			angle on x = 0
+			angle on y = 0
+			distance = 1
+		}
+		viewport :
+		{
+			height = 900
+			width = 1600
+		}
+		spot :
+		{
+			position = (3 0 3)
+			intensity = 25
+			color = #FFFFFF00
+		}
+		spot :
+		{
+			position = (-3 0 3)
+			intensity = 25
+			color = #FFFFFF00
+		}
+	}
+	objects :
+	{
+		sphere :
+		{
+			origin = (0 3 -3)
+			direction = (0 0 0)
+			radius = 2
+			color = #C2C22C00
+		}
+		cone :
+		{
+			origin = (0 0 0)
+			direction = (1 0 0)
+			angle = 30
+			color = #2CC2C200
+		}
+	}
+}
