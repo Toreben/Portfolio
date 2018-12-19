@@ -98,6 +98,9 @@ To compile the project and run the project (only on MacOs)
 ![Some pillars](./screens/pilliers?raw=true "Pillars")
 *Some pillars*
 
+![Same scene from a different point of view](./screens/pilliers2?raw=true "Pillars2")
+*Same scene from a different point of view*
+
 ![Some cones](./screens/cones?raw=true "Cones")
 *Some cones*
 
@@ -107,12 +110,12 @@ To compile the project and run the project (only on MacOs)
 ![Some spheres](./screens/spheres?raw=true "Spheres")
 *Some spheres*
 
-### What append if we mess with the shadding operations ?
+#### What append if we mess with the shadding operations ?
 ![This...](./screens/fun1?raw=true "Shadding 1")
 *This...*
 
-![...or this !](./screens/fun2?raw=true "Pillars")
-*... ot this !*
+![...or this...](./screens/fun2?raw=true "Shadding 2")
+*... ot this...
 
-![...or this !](./screens/fun3?raw=true "Cones")
-*... ot this...*
+![...or this !](./screens/fun3?raw=true "Shadding 3")
+*... ot this !*
