@@ -14,6 +14,7 @@ Summary :
 	- [02 fdf](#02-fdf)
 	- [03 fractol](#03-fractol)
 	- [04 RTv1](#04-rtv1)
+	- [05 RT](#05-rt)
 	- [06 Wolf3D](#06-wolf3d)
 
 ## Structure
@@ -24,19 +25,19 @@ All those projects have the same structure :
  - source folder
  - library folders if needed
 
-Graphical projects **fdf** and  **fractol** are using the Minilibx graphical library (aka MLX), developed by Ol for 42 schools. MLX exists under two versions : a MacOs only, using AppKit and OpenGL frameworks, and an other one for Linux, using X11 library. Both projects have both sources, making them runnable on both OS (but work best on MacOs).
+Graphical projects **fdf** and **fractol** are using the Minilibx graphical librafry (aka MLX), developed by Ol for 42 schools. MLX exists under two versions : a MacOs only, using AppKit and OpenGL frameworks, and an other one for Linux, using X11 library. Both projects have both sources, making them runnable on both OS (but work best on MacOs).
 MLX for Linux is broken, so you might need to work the command twice to compile the project.
 
-I added easter eggs  in the graphical projects, but they only work under MacOs, because of the use of the *afplay* command, only available on MacOs.
+I added easter eggs in the graphical projects, but they only work under MacOs, because of the use of the *afplay* command, only available on MacOs.
 
 ## Projects
-In order to compile the projects, simply run the _make_ command at the  root of each of them.
+In order to compile the projects, simply run the ```make``` command at the root of each of them.
 
 ### 00 libft
 The *libft* project consists of reproducing some of the Standard C library. I added some function later.
 
 ### 01 fillit
-The *fillit* project consists of filling the smallest square possible with tetriminos described in a file given in parameter of the program. Every tetrimonos are define by four sharps (*#*), and are included in a square of 4x4 characters. All the remaining characters must be dots (.).
+The *fillit* project consists of filling the smallest square possible with tetriminos described in a file given in parameter of the program. Every tetrimonos are define by four sharps (```#```), and are included in a square of 4x4 characters. All the remaining characters must be dots (```.```).
 To run the program, use ```./fillit file```
 
 ### 02 fdf
@@ -96,7 +97,7 @@ Available fractals :
 
 ### 04 RTv1
 RTv1, for _Raytracer version 1_, is a basic ray tracing program taking a scene in parameter, and renders the resulting ray-traced image. The program runs with the SDL2 framework, the sources for MacOS are at the root of the directory.
-The file discribes the content of the scene, such as the camera position and orientation ; the window size ; point lights positions,  colors and intensities ; objects positions, directions, colors and size.
+The file discribes the content of the scene, such as the camera position and orientation ; the window size ; point lights positions, colors and intensities ; objects positions, directions, colors and size.
 All the rules are discribed in the README of the project.
 To run the program, use```./rtv1 scene_path/scene_file``` (ex : ***./rtv1 scn/pilliers***)
 
@@ -123,19 +124,19 @@ To run the program, use```./rtv1 scene_path/scene_file``` (ex : ***./rtv1 scn/pi
 ![Some spheres](./screen/rtv1/spheres?raw=true "Spheres")
 *Some spheres*
 
-#### What append if we mess with the shadding operations ?
+#### What happens if we mess with the shadding operations ?
 ![This...](./screen/rtv1/fun1?raw=true "Shadding 1")
 *This...*
 
 ![...or this...](./screen/rtv1/fun2?raw=true "Shadding 2")
-*... ot this...*
+*... or this...*
 
 ![...or this !](./screen/rtv1/fun3?raw=true "Shadding 3")
-*... ot this !*
+*... or this !*
 
 ### 05 RT
 The logical continuity of the previous project, with more options, more objects...
-Work in progress, my project is not available yet, put you can read the subject anyway.
+Work in progress, my project is not available yet, but you can read the subject anyway.
 
 ### 06 Wolf3D
-Work in progress, my project is not available yet, put you can read the subject anyway.
+Work in progress, my project is not available yet, but you can read the subject anyway.
