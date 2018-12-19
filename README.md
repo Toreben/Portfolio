@@ -102,35 +102,35 @@ To run the program, use```./rtv1 scene_path/scene_file``` (ex : ***./rtv1 scn/pi
 
 #### Want a preview ?
 
-![One sphere and one cone](./screens/pap?raw=true "One sphere and one cone")
+![One sphere and one cone](./screens/rtv1/pap?raw=true "One sphere and one cone")
 *One scene with two objects*
 
-![The same scene as in the subject (almost)](./screens/sujet?raw=true "Same scene as in subject")
+![The same scene as in the subject (almost)](./screens/rtv1/sujet?raw=true "Same scene as in subject")
 *The same scene as in the subject*
 
-![Some pillars](./screens/pilliers?raw=true "Pillars")
+![Some pillars](./screens/rtv1/pilliers?raw=true "Pillars")
 *Some pillars*
 
-![Same scene from a different point of view](./screens/pilliers2?raw=true "Pillars2")
+![Same scene from a different point of view](./screens/rtv1/pilliers2?raw=true "Pillars2")
 *Same scene from a different point of view*
 
-![Some cones](./screens/cones?raw=true "Cones")
+![Some cones](./screens/rtv1/cones?raw=true "Cones")
 *Some cones*
 
-![Some cylinders](./screens/cylindres?raw=true "Cylinders")
+![Some cylinders](./screens/rtv1/cylindres?raw=true "Cylinders")
 *Some cylinders*
 
-![Some spheres](./screens/spheres?raw=true "Spheres")
+![Some spheres](./screens/rtv1/spheres?raw=true "Spheres")
 *Some spheres*
 
 #### What append if we mess with the shadding operations ?
-![This...](./screens/fun1?raw=true "Shadding 1")
+![This...](./screens/rtv1/fun1?raw=true "Shadding 1")
 *This...*
 
-![...or this...](./screens/fun2?raw=true "Shadding 2")
+![...or this...](./screens/rtv1/fun2?raw=true "Shadding 2")
 *... ot this...*
 
-![...or this !](./screens/fun3?raw=true "Shadding 3")
+![...or this !](./screens/rtv1/fun3?raw=true "Shadding 3")
 *... ot this !*
 
 ### 05 RT
