@@ -3,7 +3,7 @@
 # Le 101 projects by bnoyer 
 _This repo is a part of my work at Le-101 School._
 
-All of those projects where made on a MacOs computer, but also  work on Ubuntu distributions.
+All of those projects where made on a MacOs computer, but also most of them work on Ubuntu distributions.
 Subjects of those four projects are in the [***subjects***](./subjects) directory, both in french and english for your convenience.
 
 Summary :
