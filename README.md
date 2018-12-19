@@ -1,4 +1,5 @@
 
+
 # Le 101 projects by bnoyer 
 _This repo is a part of my work at Le-101 School._
 
@@ -12,7 +13,8 @@ Summary :
 	- [01 fillit](#01-fillit)
 	- [02 fdf](#02-fdf)
 	- [03 fractol](#03-fractol)
-	- [04 Wolf3D](#04-wolf3d)
+	- [04 RTv1](#04-rtv1)
+	- [06 Wolf3D](#06-wolf3d)
 
 ## Structure
 All those projects have the same structure :
@@ -35,11 +37,11 @@ The *libft* project consists of reproducing some of the Standard C library. I ad
 
 ### 01 fillit
 The *fillit* project consists of filling the smallest square possible with tetriminos described in a file given in parameter of the program. Every tetrimonos are define by four sharps (*#*), and are included in a square of 4x4 characters. All the remaining characters must be dots (.).
-To run the program, use ***./fillit file***
+To run the program, use ```./fillit file```
 
 ### 02 fdf
 The *fdf* projects consists of graphically recreating the schematic representation of a raised ground. The height map is given in parameter. Each number on the map represents the height of this precise point. You can find already made maps in the **maps** folder.
-To run the program, use ***./fdf map_to_draw [colorscheme]*** (ex : *./fdf maps/le-101.v1 "kouign amann"*)
+To run the program, use ```./fdf map_to_draw [colorscheme]``` (ex : *./fdf maps/le-101.v1 "kouign amann"*)
 
 Available colorschemes :
 - **notum terram** -> classic map colors
@@ -64,7 +66,7 @@ Available colorschemes :
 
 ### 03 fractol
 The *fractol* project consists of representing fractals on screen. My programs allows to draw Mandelbrot, Burning ship, and Mandelbrot's version of Julia fractals.
-To run the program, use ***./fractol fractal*** (ex : *./fractol 1* or *./fractol Mandelbrot*)
+To run the program, use ```./fractol fractal``` (ex : *./fractol 1* or *./fractol Mandelbrot*)
 
 Available fractals :
 - **1 Mandelbrot**
@@ -92,6 +94,48 @@ Available fractals :
 ![Zoom on the Burning Ship fractal, black to cyan colorscheme, 50 iterations](./screen/fractol/07.png?raw=true "Zoom on the Burning Ship fractal, black to cyan colorscheme, 50 iterations")
 *Zoom on the Burning Ship fractal, black to cyan colorscheme, 50 iterations*
 
+### 04 RTv1
+RTv1, for _Raytracer version 1_, is a basic ray tracing program taking a scene in parameter, and renders the resulting ray-traced image. The program runs with the SDL2 framework, the sources for MacOS are at the root of the directory.
+The file discribes the content of the scene, such as the camera position and orientation ; the window size ; point lights positions,  colors and intensities ; objects positions, directions, colors and size.
+All the rules are discribed in the README of the project.
+To run the program, use```./rtv1 scene_path/scene_file``` (ex : ***./rtv1 scn/pilliers***)
 
-### 04 Wolf3D
+#### Want a preview ?
+
+![One sphere and one cone](./screens/pap?raw=true "One sphere and one cone")
+*One scene with two objects*
+
+![The same scene as in the subject (almost)](./screens/sujet?raw=true "Same scene as in subject")
+*The same scene as in the subject*
+
+![Some pillars](./screens/pilliers?raw=true "Pillars")
+*Some pillars*
+
+![Same scene from a different point of view](./screens/pilliers2?raw=true "Pillars2")
+*Same scene from a different point of view*
+
+![Some cones](./screens/cones?raw=true "Cones")
+*Some cones*
+
+![Some cylinders](./screens/cylindres?raw=true "Cylinders")
+*Some cylinders*
+
+![Some spheres](./screens/spheres?raw=true "Spheres")
+*Some spheres*
+
+#### What append if we mess with the shadding operations ?
+![This...](./screens/fun1?raw=true "Shadding 1")
+*This...*
+
+![...or this...](./screens/fun2?raw=true "Shadding 2")
+*... ot this...
+
+![...or this !](./screens/fun3?raw=true "Shadding 3")
+*... ot this !*
+
+### 05 RT
+The logical continuity of the previous project, with more options, more objects...
+Work in progress, my project is not available yet, put you can read the subject anyway.
+
+### 06 Wolf3D
 Work in progress, my project is not available yet, put you can read the subject anyway.
