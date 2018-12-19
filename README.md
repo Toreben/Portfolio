@@ -1,10 +1,6 @@
 
-<<<<<<< HEAD
 
 # Le 101 projects by bnoyer 
-=======
-# Le-101 projects by bnoyer 
->>>>>>> 0ca15cfbb328a9ef9f4811c7a2b3935ad1037686
 _This repo is a part of my work at Le-101 School._
 
 All of those projects where made on a MacOs computer, but also  work on Ubuntu distributions.
