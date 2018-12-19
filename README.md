@@ -128,7 +128,7 @@ To run the program, use```./rtv1 scene_path/scene_file``` (ex : ***./rtv1 scn/pi
 *This...*
 
 ![...or this...](./screens/fun2?raw=true "Shadding 2")
-*... ot this...
+*... ot this...*
 
 ![...or this !](./screens/fun3?raw=true "Shadding 3")
 *... ot this !*

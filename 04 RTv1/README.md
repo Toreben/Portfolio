@@ -115,7 +115,7 @@ To compile the project and run the project (only on MacOs)
 *This...*
 
 ![...or this...](./screens/fun2?raw=true "Shadding 2")
-*... ot this...
+*... or this...*
 
 ![...or this !](./screens/fun3?raw=true "Shadding 3")
-*... ot this !*
+*... or this !*
