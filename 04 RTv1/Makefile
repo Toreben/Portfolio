@@ -24,7 +24,8 @@ SDL_INC = $(FRAMEWORK_PATH)/$(SDL).framework/Headers
 FLAG_SDL = -F$(FRAMEWORK_PATH) -framework $(SDL) -rpath $(FRAMEWORK_PATH)
 endif
 ifeq ($(UNAME), Linux)
-#A remplir pour Linux
+SDL_INC = /usr/include/SDL2 -D_REENTRANT
+FLAG_SDL = -L/usr/lib64 -lSDL2 -lm
 endif
 
 CC = gcc
