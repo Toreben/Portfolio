@@ -1,0 +1,57 @@
+scene :
+{
+	general :
+	{
+		ambient :
+		{
+#			OFF
+			intensity = 10
+			color = #FFFFFF00
+		}
+		anti aliasing = 0
+	}
+	view :
+	{
+		camera :
+		{
+			position = (0 0 6)
+			angle on x = 0
+			angle on y = 0
+			distance = 1
+		}
+		viewport :
+		{
+			height = 900
+			width = 1600
+		}
+		spot :
+		{
+			position = (0 0 6)
+			intensity = 50
+			color = #FFFFFF00
+		}
+#		spot :
+#		{
+#			position = (-3 0 3)
+#			intensity = 25
+#			color = #FFFFFF00
+#		}
+	}
+	objects :
+	{
+		sphere :
+		{
+			origin = (-1 0 0)
+			direction = (0 0 0)
+			radius = 2
+			color = #C2C22C00
+		}
+		sphere :
+		{
+			origin = (1 0 0)
+			direction = (0 0 0)
+			radius = 2
+			color = #FFFFFFFF
+		}
+	}
+}

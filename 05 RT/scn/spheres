@@ -1,0 +1,166 @@
+scene :
+{
+	general :
+	{
+		ambient :
+		{
+			OFF
+		}
+		anti aliasing = 3
+	}
+	view :
+	{
+		camera :
+		{
+			position = (0 20 20)
+			angle on x = -20
+			angle on y = 0
+			distance = 1
+		}
+		viewport :
+		{
+			height = 900
+			width = 1600
+		}
+		spot :
+		{
+			position = (0 0 15)
+			intensity = 200
+			color = #FFFFFF00
+		}
+		spot :
+		{
+			position = (0 30 -15)
+			intensity = 200
+			color = #FFFFFF00
+		}
+		spot :
+		{
+			position = (15 10 0)
+			intensity = 200
+			color = #FFFFFF00
+		}
+		spot :
+		{
+			position = (-15 20 0)
+			intensity = 200
+			color = #FFFFFF00
+		}
+	}
+	objects :
+	{
+		plane :
+		{
+			origin = (0 0 -60)
+			direction = (0 0 -1)
+			color = #AAAAAA00
+		}
+		plane :
+		{
+			origin = (0 0 60)
+			direction = (0 0 1)
+			color = #AAAAAA00
+		}
+		plane :
+		{
+			origin = (0 60 0)
+			direction = (0 1 0)
+			color = #AAAAAA00
+		}
+		plane :
+		{
+			origin = (0 -60 0)
+			direction = (0 -1 0)
+			color = #AAAAAA00
+		}
+		plane :
+		{
+			origin = (60 0 0)
+			direction = (1 0 0)
+			color = #AAAAAA00
+		}
+		plane :
+		{
+			origin = (-60 0 0)
+			direction = (-1 0 0)
+			color = #AAAAAA00
+		}
+		sphere :
+		{
+			origin = (0 0 0)
+			direction = (0 0 0)
+			radius = 1
+			color = #4C57E100
+		}
+		sphere :
+		{
+			origin = (2 2 -2)
+			direction = (0 0 0)
+			radius = 1.25
+			color = #8246DD00
+		}
+		sphere :
+		{
+			origin = (-2.5 4 -2.5)
+			direction = (0 0 0)
+			radius = 1.5
+			color = #C540D900
+		}
+		sphere :
+		{
+			origin = (-3 6 3)
+			direction = (0 0 0)
+			radius = 1.5
+			color = #D53A9F00
+		}
+		sphere :
+		{
+			origin = (3.5 8 3.5)
+			direction = (0 0 0)
+			radius = 1.75
+			color = #D1355100
+		}
+		sphere :
+		{
+			origin = (4 10 -4)
+			direction = (0 0 0)
+			radius = 2
+			color = #CD5E2F00
+		}
+		sphere :
+		{
+			origin = (-4.5 12 -4.5)
+			direction = (0 0 0)
+			radius = 2.25
+			color = #C8A42A00
+		}
+		sphere :
+		{
+			origin = (-5 14 5)
+			direction = (0 0 0)
+			radius = 2.5
+			color = #9EC52500
+		}
+		sphere :
+		{
+			origin = (6 16 6)
+			direction = (0 0 0)
+			radius = 2.75
+			color = #4EC12100
+		}
+		sphere :
+		{
+			origin = (7 18 -7)
+			direction = (0 0 0)
+			radius = 3
+			color = #1CBC3B00
+		}
+		sphere :
+		{
+			origin = (-8 20 -8)
+			direction = (0 0 0)
+			radius = 3.25
+			color = #17B98300
+		}
+	}
+}
