@@ -138,5 +138,13 @@ To run the program, use```./rtv1 scene_path/scene_file``` (ex : ***./rtv1 scn/pi
 The logical continuity of the previous project, with more options, more objects...
 Work in progress, my project is not available yet, but you can read the subject anyway.
 
+Here are some screenshots anyway :
+![screen](./screen/rt/Pillar%20scene%20Edit%20mode%20BW.png?raw=true "screen")
+![screen](./screen/rt/Pillar%20scene%20Edit%20mode.png?raw=true "screen")
+![screen](./screen/rt/Spheres%20scene.png?raw=true "screen")
+![screen](./screen/rt/Pillar%20scene%20Edit%20mode%20Sepia.png?raw=true "screen")
+![screen](./screen/rt/Spheres%20scene%20Edit%20mode.png?raw=true "screen")
+![screen](./screen/rt/Test%20scene.png?raw=true "screen")
+
 ### 06 Wolf3D
 Work in progress, my project is not available yet, but you can read the subject anyway.
