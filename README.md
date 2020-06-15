@@ -1,7 +1,7 @@
 
 
-# Le 101 projects by bnoyer 
-_This repo is a part of my work at Le-101 School._
+# 42 Lyon projects by bnoyer 
+_This repo is a part of my work at 42 Lyon School._
 
 All of those projects where made on a MacOs computer, but also most of them work on Ubuntu distributions.
 Subjects of those four projects are in the [***subjects***](./subjects) directory, both in french and english for your convenience.
